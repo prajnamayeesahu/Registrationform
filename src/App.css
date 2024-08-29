@@ -116,7 +116,7 @@ input {
   top: 0;
   left: 0;
   background-image: linear-gradient(to right, #3735c8 0%, #47cbd7 100%);
-  transition: 2s ease;
+  transition: 0.7s ease;
   z-index: -1;
   display: block;
 }
@@ -201,23 +201,25 @@ input {
 
   input {
     font-size: 12px; 
-    height: 2.2em; 
+    height: 2.5em; 
     margin-top: 8px;
   }
 
   .inputIcon {
-    left: 6px; 
+    left: 6px;
+    top: 60%; 
   }
 
   input {
     padding-left: 30px; 
     padding-right: 30px; 
     font-size: 12px; 
-    height: 2.2em;
+    height: 3em;
   }
 
   .eyeIcon {
     right: 6px; 
+    top: 60%;
   }
 
   .btn {
